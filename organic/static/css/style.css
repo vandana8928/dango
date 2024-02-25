@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, serif;
+   
+}
+p{
+    font-size: 16px;
+}
+h1{
+    margin-top: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+
+}
+.slide img{
+height: 500px;
+}
+/*---about us----*/
+
+.about-img{
+    width: 600px;
+    height: 400px;
+}
+
+.aboutpage .about-text{
+    margin: 100px 0px;
+}
+ 
+@media  (max-width: 600px) {
+    .about-img{
+        width: 100%;
+   
+    }
+   
+}
+
+
+.blog img {
+  height: 300px;
+}
+.col-lg-6{
+    padding: 0;
+}
+.blog .card{
+    width: 500px;
+    margin: 0 auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: none;
+}
+.blog .btn{
+    background-color: green;
+    color:white;
+}
+#product .card{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: none;
+
+}
+#service .card{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: none;
+}
+#service .btn{
+    background-color: green;
+    color:white;
+}
+#product .btn{
+    background-color: green;
+    color:white;
+}
+
+/*brand  start*/
+.image-with-text {
+    position: relative;
+    margin:20px 0 ;
+    
+  }
+  
+  .image-with-text  img{
+    height: 300px;
+
+    width: 100%;
+  }
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .overlay-text h2,
+  .overlay-text p {
+    margin: 0;
+  }
+  
+
+/*brand  end*/
+
+/*---footer start----*/
+
+.bg-footer {
+    background-color: rgb(23, 133, 23);
+    padding: 50px 0 30px;
+}
+.footer-heading {
+    letter-spacing: 2px;
+}
+
+.footer-link a {
+    color: white;
+    line-height: 40px;
+    font-size: 14px;
+    transition: all 0.5s;
+}
+
+.footer-link a:hover {
+    color: #1bbc9b;
+}
+
+.contact-info {
+    color: white;
+    font-size: 14px;
+}
+
+.footer-social-icon {
+    font-size: 15px;
+    height: 34px;
+    width: 34px;
+    line-height: 34px;
+    border-radius: 3px;
+    text-align: center;
+    display: inline-block;
+}
+
+.facebook {
+    background-color: #4e71a8;
+    color: #ffffff;
+}
+
+.twitter {
+    background-color: #55acee;
+    color: #ffffff;
+}
+
+.google {
+    background-color: #d6492f;
+    color: #ffffff;
+}
+
+.apple {
+    background-color: #424041;
+    color: #ffffff;
+}
+
+.footer-alt {
+    color:white;
+}
+
+.footer-heading {
+    position: relative;
+    padding-bottom: 12px;
+}
+
+.footer-heading:after {
+    content: '';
+    width: 25px;
+    border-bottom: 1px solid #FFF;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    border-bottom: 1px solid #1bbc9b;
+}
+
+/*---footer end----*/
